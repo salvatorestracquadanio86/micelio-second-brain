@@ -21,7 +21,7 @@
     "screenshots": "tsc -p tsconfig.json && node launch.js --screenshots"
   },
   "devDependencies": {
-    "electron": "^38.8.6",
+    "electron": "^42.11.16",
     "electron-builder": "^26.15.3"
   }
 }
