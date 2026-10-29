@@ -1,3 +1,12 @@
 {
-  "signedContributors": []
+  "signedContributors": [
+    {
+      "name": "NikyLix91",
+      "id": 6825843,
+      "comment_id": 6501659854,
+      "created_at": "2026-10-29T15:57:24Z",
+      "repoId": 1434128418,
+      "pullRequestNo": 22
+    }
+  ]
 }
