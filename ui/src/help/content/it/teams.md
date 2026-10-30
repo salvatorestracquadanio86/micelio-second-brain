@@ -20,6 +20,14 @@ Il selettore **Team** in alto nella barra laterale sceglie su quale team lavoran
 
 Il **team predefinito** (★ nella pagina Team) è quello che usano la riga di comando e gli agenti quando non indicano un team. Si cambia con «Rendi predefinito» o con `micelio teams default <team>`. Dalla riga di comando un altro team si indica con `micelio --team <id o nome> <comando>`.
 
+## Il colore di ogni team {#colors}
+
+Con più team l'app prende il **colore del team** su cui stai lavorando: la barra laterale si tinge, e pulsanti, link e voce attiva del menu usano lo stesso colore. Così si capisce a colpo d'occhio dove sei. Con un solo team l'app resta verde come sempre.
+
+Ogni team riceve in automatico un colore diverso; il predefinito tiene il verde. Per cambiarlo, nella pagina **Team** clicca il pallino accanto al nome del team e scegli dalla tavolozza. È una preferenza solo tua: si ricorda in questo browser e i colleghi non la vedono.
+
+**Come funziona dietro le quinte.** I colori stanno nel `localStorage` del browser (chiave `micelio.teamColors`, id del team → colore): non passano dal daemon, non entrano nel log del team e non escono dal PC. La tavolozza è fissa (8 colori, ognuno con una versione per il tema chiaro e una per quello scuro, scelte per restare leggibili). A un team nuovo va il primo colore libero, il predefinito prova prima il verde; il colore di un team tolto da questo PC torna libero; oltre gli 8 team i colori si ripetono. Codice: `ui/src/api/teamColors.ts`.
+
 ## Aggiungere un team {#add}
 
 «＋ Aggiungi un team…» nel selettore (o nella pagina Team) apre lo stesso modulo del primo avvio: si crea un team nuovo o si entra in uno esistente con un codice d'invito. Il nome è già quello della tua identità; puoi sceglierne un altro solo per il nuovo team. Da terminale: `micelio init <nome>` o `micelio join <codice>`, che si aggiungono ai team già presenti.
