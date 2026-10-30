@@ -4,9 +4,11 @@ All notable changes to Micelio. The format follows [Keep a Changelog](https://ke
 
 ## [Unreleased]
 
+## [0.8.1] - 2026-10-30
+
 ### Added
 
-- Team colors: with several teams on the PC, the app takes the color of the team shown (tinted sidebar, accent on buttons, links and the active menu item), so you can tell at a glance which team you are on. Each team gets a different color from a palette of 8 automatically (the default keeps green); you change it on the Team page. It is a personal preference stored in the browser.
+- Team colors: with several teams on the PC, the app takes the color of the team shown (tinted sidebar, accent on buttons, links and the active menu item), so you can tell at a glance which team you are on. Each team gets a different color from a palette of 8 automatically (the default keeps green); you change it on the Team page. It is a personal preference stored in the browser. Contributed by @NikyLix91 in #22.
 
 ## [0.8.0] - 2026-10-29
 
@@ -141,7 +143,8 @@ Memory that learns from use.
 ### Added
 - First version: P2P team, memories, hybrid search, MCP for Claude Code, automatic collection with privacy filter and Inbox, document folders, priority and dreaming, desktop app with the 3D Nucleus.
 
-[Unreleased]: https://github.com/salvatorestracquadanio86/micelio-second-brain/compare/v0.8.0...HEAD
+[Unreleased]: https://github.com/salvatorestracquadanio86/micelio-second-brain/compare/v0.8.1...HEAD
+[0.8.1]: https://github.com/salvatorestracquadanio86/micelio-second-brain/releases/tag/v0.8.1
 [0.8.0]: https://github.com/salvatorestracquadanio86/micelio-second-brain/releases/tag/v0.8.0
 [0.7.1]: https://github.com/salvatorestracquadanio86/micelio-second-brain/releases/tag/v0.7.1
 [0.7.0]: https://github.com/salvatorestracquadanio86/micelio-second-brain/releases/tag/v0.7.0
