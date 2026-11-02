@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "blind-relay": "^1.6.1",
-    "hyperdht": "^6.34.1"
+    "hyperdht": "^6.35.0"
   },
   "devDependencies": {
     "@types/node": "^22.18.0",
